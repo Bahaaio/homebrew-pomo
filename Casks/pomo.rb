@@ -3,7 +3,7 @@ cask "pomo" do
   name "pomo"
   desc "A simple Pomodoro timer TUI application written in Go."
   homepage "https://github.com/Bahaaio/pomo"
-  version "1.0.5"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pomo" do
   on_macos do
     on_intel do
       url "https://github.com/Bahaaio/pomo/releases/download/v#{version}/pomo_Darwin_x86_64.tar.gz"
-      sha256 "d90387d26e8846372aa276ee22dbc617be07617692ff1c0eac6306ffb2c8c0d8"
+      sha256 "849c4c50ebaf17a86db092ea9683a1b4b9806fc0dcbaa694dd79bc60548fcb74"
     end
     on_arm do
       url "https://github.com/Bahaaio/pomo/releases/download/v#{version}/pomo_Darwin_arm64.tar.gz"
-      sha256 "ca858814ddb4fa2c0b26f6e5ea4e5935e100d19e77a388af0ed223fce34d7aa3"
+      sha256 "8b079e9dcac61432aafeb351048a395ab27e00d4cb171249776c42566f6674be"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Bahaaio/pomo/releases/download/v#{version}/pomo_Linux_x86_64.tar.gz"
-      sha256 "2afc280c05e2f64de10d88505131e31a9fe5315b0986052083b0ff1302f6c87f"
+      sha256 "e840b6ed3242cc95d64dd7dab8ee7ae04d27223604047ca28483958e7134d500"
     end
     on_arm do
       url "https://github.com/Bahaaio/pomo/releases/download/v#{version}/pomo_Linux_arm64.tar.gz"
-      sha256 "b4397732f80eb6691bada9ecb4007748b74da04cd429f092b83c22b7233b5a9a"
+      sha256 "ea30e78de79d1eeb85006ac4966b90006ecfc57754fe1fab85358907ae1476ef"
     end
   end
 
